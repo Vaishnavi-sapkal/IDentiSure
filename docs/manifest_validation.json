@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": {
+    "total_rows": 2222,
+    "expected_rows": 2222,
+    "real_rows": 1000,
+    "expected_real_rows": 1000,
+    "fake_rows": 1222,
+    "expected_fake_rows": 1222,
+    "inpaint_and_rewrite_rows": 1077,
+    "expected_inpaint_and_rewrite": 1077,
+    "crop_and_replace_rows": 145,
+    "expected_crop_and_replace": 145,
+    "missing_source_bbox": 0,
+    "missing_donor_bbox_crop_and_replace": 0,
+    "processing_errors": 0
+  },
+  "errors": []
+}
