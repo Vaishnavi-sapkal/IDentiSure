@@ -1,0 +1,395 @@
+{
+  "dataset_totals": {
+    "real_images_in_manifest": 1000,
+    "valid_annotated_real_fields": 16193,
+    "fields_processed": 16193
+  },
+  "overall_metrics": {
+    "exact_matches": 8332,
+    "exact_match_accuracy": 51.45433211881677,
+    "average_character_similarity": 0.7701878812209475,
+    "normalized_exact_matches": 8629,
+    "normalized_exact_match_accuracy": 53.2884579756685
+  },
+  "ocr_failure_count": 0,
+  "per_field_metrics": {
+    "authority": {
+      "samples": 400,
+      "exact_matches": 100,
+      "exact_match_percentage": 25.0,
+      "average_character_similarity": 0.6928599077578839,
+      "normalized_exact_matches": 100,
+      "normalized_exact_match_percentage": 25.0,
+      "ocr_failures": 0
+    },
+    "authority_eng": {
+      "samples": 100,
+      "exact_matches": 100,
+      "exact_match_percentage": 100.0,
+      "average_character_similarity": 1.0,
+      "normalized_exact_matches": 100,
+      "normalized_exact_match_percentage": 100.0,
+      "ocr_failures": 0
+    },
+    "authority_line0": {
+      "samples": 100,
+      "exact_matches": 23,
+      "exact_match_percentage": 23.0,
+      "average_character_similarity": 0.9238684371184377,
+      "normalized_exact_matches": 23,
+      "normalized_exact_match_percentage": 23.0,
+      "ocr_failures": 0
+    },
+    "authority_line1": {
+      "samples": 100,
+      "exact_matches": 0,
+      "exact_match_percentage": 0.0,
+      "average_character_similarity": 0.631594155844156,
+      "normalized_exact_matches": 0,
+      "normalized_exact_match_percentage": 0.0,
+      "ocr_failures": 0
+    },
+    "birth_country": {
+      "samples": 100,
+      "exact_matches": 92,
+      "exact_match_percentage": 92.0,
+      "average_character_similarity": 0.9733333333333336,
+      "normalized_exact_matches": 92,
+      "normalized_exact_match_percentage": 92.0,
+      "ocr_failures": 0
+    },
+    "birth_date": {
+      "samples": 1000,
+      "exact_matches": 536,
+      "exact_match_percentage": 53.6,
+      "average_character_similarity": 0.9247405982905976,
+      "normalized_exact_matches": 536,
+      "normalized_exact_match_percentage": 53.6,
+      "ocr_failures": 0
+    },
+    "birth_date_2": {
+      "samples": 100,
+      "exact_matches": 2,
+      "exact_match_percentage": 2.0,
+      "average_character_similarity": 0.061666666666666675,
+      "normalized_exact_matches": 2,
+      "normalized_exact_match_percentage": 2.0,
+      "ocr_failures": 0
+    },
+    "birth_date_22": {
+      "samples": 100,
+      "exact_matches": 0,
+      "exact_match_percentage": 0.0,
+      "average_character_similarity": 0.0,
+      "normalized_exact_matches": 0,
+      "normalized_exact_match_percentage": 0.0,
+      "ocr_failures": 0
+    },
+    "birth_place": {
+      "samples": 500,
+      "exact_matches": 23,
+      "exact_match_percentage": 4.6,
+      "average_character_similarity": 0.6771993148611384,
+      "normalized_exact_matches": 25,
+      "normalized_exact_match_percentage": 5.0,
+      "ocr_failures": 0
+    },
+    "birth_place_eng": {
+      "samples": 100,
+      "exact_matches": 96,
+      "exact_match_percentage": 96.0,
+      "average_character_similarity": 0.9855714285714287,
+      "normalized_exact_matches": 97,
+      "normalized_exact_match_percentage": 97.0,
+      "ocr_failures": 0
+    },
+    "birth_place_line0": {
+      "samples": 100,
+      "exact_matches": 0,
+      "exact_match_percentage": 0.0,
+      "average_character_similarity": 0.06591232265426297,
+      "normalized_exact_matches": 0,
+      "normalized_exact_match_percentage": 0.0,
+      "ocr_failures": 0
+    },
+    "birth_place_line1": {
+      "samples": 67,
+      "exact_matches": 0,
+      "exact_match_percentage": 0.0,
+      "average_character_similarity": 0.07650726453693041,
+      "normalized_exact_matches": 0,
+      "normalized_exact_match_percentage": 0.0,
+      "ocr_failures": 0
+    },
+    "birth_place_line2": {
+      "samples": 27,
+      "exact_matches": 0,
+      "exact_match_percentage": 0.0,
+      "average_character_similarity": 0.06343779397098971,
+      "normalized_exact_matches": 0,
+      "normalized_exact_match_percentage": 0.0,
+      "ocr_failures": 0
+    },
+    "code": {
+      "samples": 500,
+      "exact_matches": 368,
+      "exact_match_percentage": 73.6,
+      "average_character_similarity": 0.8760190476190485,
+      "normalized_exact_matches": 379,
+      "normalized_exact_match_percentage": 75.8,
+      "ocr_failures": 0
+    },
+    "expiry_date": {
+      "samples": 900,
+      "exact_matches": 574,
+      "exact_match_percentage": 63.77777777777778,
+      "average_character_similarity": 0.9359848608181941,
+      "normalized_exact_matches": 574,
+      "normalized_exact_match_percentage": 63.77777777777778,
+      "ocr_failures": 0
+    },
+    "expiry_date2": {
+      "samples": 100,
+      "exact_matches": 0,
+      "exact_match_percentage": 0.0,
+      "average_character_similarity": 0.07209090909090908,
+      "normalized_exact_matches": 0,
+      "normalized_exact_match_percentage": 0.0,
+      "ocr_failures": 0
+    },
+    "expiry_date_2": {
+      "samples": 100,
+      "exact_matches": 22,
+      "exact_match_percentage": 22.0,
+      "average_character_similarity": 0.7479090909090906,
+      "normalized_exact_matches": 22,
+      "normalized_exact_match_percentage": 22.0,
+      "ocr_failures": 0
+    },
+    "face": {
+      "samples": 1000,
+      "exact_matches": 1000,
+      "exact_match_percentage": 100.0,
+      "average_character_similarity": 1.0,
+      "normalized_exact_matches": 1000,
+      "normalized_exact_match_percentage": 100.0,
+      "ocr_failures": 0
+    },
+    "gender": {
+      "samples": 1000,
+      "exact_matches": 248,
+      "exact_match_percentage": 24.8,
+      "average_character_similarity": 0.44813333333333477,
+      "normalized_exact_matches": 248,
+      "normalized_exact_match_percentage": 24.8,
+      "ocr_failures": 0
+    },
+    "height": {
+      "samples": 200,
+      "exact_matches": 100,
+      "exact_match_percentage": 50.0,
+      "average_character_similarity": 0.875,
+      "normalized_exact_matches": 100,
+      "normalized_exact_match_percentage": 50.0,
+      "ocr_failures": 0
+    },
+    "id_number": {
+      "samples": 700,
+      "exact_matches": 486,
+      "exact_match_percentage": 69.42857142857143,
+      "average_character_similarity": 0.94613134088134,
+      "normalized_exact_matches": 554,
+      "normalized_exact_match_percentage": 79.14285714285714,
+      "ocr_failures": 0
+    },
+    "issue_date": {
+      "samples": 800,
+      "exact_matches": 316,
+      "exact_match_percentage": 39.5,
+      "average_character_similarity": 0.8944140061327559,
+      "normalized_exact_matches": 316,
+      "normalized_exact_match_percentage": 39.5,
+      "ocr_failures": 0
+    },
+    "issue_place": {
+      "samples": 100,
+      "exact_matches": 37,
+      "exact_match_percentage": 37.0,
+      "average_character_similarity": 0.8592813216195566,
+      "normalized_exact_matches": 37,
+      "normalized_exact_match_percentage": 37.0,
+      "ocr_failures": 0
+    },
+    "mrz_line0": {
+      "samples": 400,
+      "exact_matches": 68,
+      "exact_match_percentage": 17.0,
+      "average_character_similarity": 0.9259832168992845,
+      "normalized_exact_matches": 76,
+      "normalized_exact_match_percentage": 19.0,
+      "ocr_failures": 0
+    },
+    "mrz_line1": {
+      "samples": 400,
+      "exact_matches": 16,
+      "exact_match_percentage": 4.0,
+      "average_character_similarity": 0.9364646204506887,
+      "normalized_exact_matches": 72,
+      "normalized_exact_match_percentage": 18.0,
+      "ocr_failures": 0
+    },
+    "name": {
+      "samples": 1000,
+      "exact_matches": 502,
+      "exact_match_percentage": 50.2,
+      "average_character_similarity": 0.7201918626810736,
+      "normalized_exact_matches": 522,
+      "normalized_exact_match_percentage": 52.2,
+      "ocr_failures": 0
+    },
+    "name_code": {
+      "samples": 100,
+      "exact_matches": 0,
+      "exact_match_percentage": 0.0,
+      "average_character_similarity": 0.0,
+      "normalized_exact_matches": 0,
+      "normalized_exact_match_percentage": 0.0,
+      "ocr_failures": 0
+    },
+    "name_eng": {
+      "samples": 200,
+      "exact_matches": 178,
+      "exact_match_percentage": 89.0,
+      "average_character_similarity": 0.9634940476190478,
+      "normalized_exact_matches": 184,
+      "normalized_exact_match_percentage": 92.0,
+      "ocr_failures": 0
+    },
+    "nationality": {
+      "samples": 800,
+      "exact_matches": 499,
+      "exact_match_percentage": 62.375,
+      "average_character_similarity": 0.8011842105263176,
+      "normalized_exact_matches": 499,
+      "normalized_exact_match_percentage": 62.375,
+      "ocr_failures": 0
+    },
+    "nationality/nationality_eng": {
+      "samples": 100,
+      "exact_matches": 0,
+      "exact_match_percentage": 0.0,
+      "average_character_similarity": 0.904761904761903,
+      "normalized_exact_matches": 0,
+      "normalized_exact_match_percentage": 0.0,
+      "ocr_failures": 0
+    },
+    "number": {
+      "samples": 999,
+      "exact_matches": 737,
+      "exact_match_percentage": 73.77377377377377,
+      "average_character_similarity": 0.8914914914914921,
+      "normalized_exact_matches": 823,
+      "normalized_exact_match_percentage": 82.38238238238239,
+      "ocr_failures": 0
+    },
+    "number2": {
+      "samples": 100,
+      "exact_matches": 69,
+      "exact_match_percentage": 69.0,
+      "average_character_similarity": 0.9670707070707073,
+      "normalized_exact_matches": 69,
+      "normalized_exact_match_percentage": 69.0,
+      "ocr_failures": 0
+    },
+    "number3": {
+      "samples": 100,
+      "exact_matches": 0,
+      "exact_match_percentage": 0.0,
+      "average_character_similarity": 0.04222222222222223,
+      "normalized_exact_matches": 0,
+      "normalized_exact_match_percentage": 0.0,
+      "ocr_failures": 0
+    },
+    "patronymic": {
+      "samples": 100,
+      "exact_matches": 0,
+      "exact_match_percentage": 0.0,
+      "average_character_similarity": 0.0,
+      "normalized_exact_matches": 0,
+      "normalized_exact_match_percentage": 0.0,
+      "ocr_failures": 0
+    },
+    "photo": {
+      "samples": 1000,
+      "exact_matches": 946,
+      "exact_match_percentage": 94.6,
+      "average_character_similarity": 0.946,
+      "normalized_exact_matches": 946,
+      "normalized_exact_match_percentage": 94.6,
+      "ocr_failures": 0
+    },
+    "residence_line0": {
+      "samples": 100,
+      "exact_matches": 0,
+      "exact_match_percentage": 0.0,
+      "average_character_similarity": 0.8751928617957516,
+      "normalized_exact_matches": 0,
+      "normalized_exact_match_percentage": 0.0,
+      "ocr_failures": 0
+    },
+    "residence_line1": {
+      "samples": 100,
+      "exact_matches": 38,
+      "exact_match_percentage": 38.0,
+      "average_character_similarity": 0.9379224527136764,
+      "normalized_exact_matches": 40,
+      "normalized_exact_match_percentage": 40.0,
+      "ocr_failures": 0
+    },
+    "signature": {
+      "samples": 800,
+      "exact_matches": 235,
+      "exact_match_percentage": 29.375,
+      "average_character_similarity": 0.29375,
+      "normalized_exact_matches": 235,
+      "normalized_exact_match_percentage": 29.375,
+      "ocr_failures": 0
+    },
+    "surname": {
+      "samples": 1000,
+      "exact_matches": 373,
+      "exact_match_percentage": 37.3,
+      "average_character_similarity": 0.6842004356754351,
+      "normalized_exact_matches": 398,
+      "normalized_exact_match_percentage": 39.8,
+      "ocr_failures": 0
+    },
+    "surname_eng": {
+      "samples": 200,
+      "exact_matches": 170,
+      "exact_match_percentage": 85.0,
+      "average_character_similarity": 0.9742744200244202,
+      "normalized_exact_matches": 174,
+      "normalized_exact_match_percentage": 87.0,
+      "ocr_failures": 0
+    },
+    "surname_second": {
+      "samples": 100,
+      "exact_matches": 82,
+      "exact_match_percentage": 82.0,
+      "average_character_similarity": 0.9266468253968254,
+      "normalized_exact_matches": 90,
+      "normalized_exact_match_percentage": 90.0,
+      "ocr_failures": 0
+    },
+    "type": {
+      "samples": 400,
+      "exact_matches": 296,
+      "exact_match_percentage": 74.0,
+      "average_character_similarity": 0.74,
+      "normalized_exact_matches": 296,
+      "normalized_exact_match_percentage": 74.0,
+      "ocr_failures": 0
+    }
+  }
+}
