@@ -14,6 +14,7 @@ import numpy as np
 from PIL import Image
 
 
+NON_TEXT_FIELDS = {"photo", "signature", "face"}
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 MANIFEST_PATH = PROJECT_ROOT / "docs" / "manifest.jsonl"
 REAL_IMAGES_DIR = (
@@ -69,7 +70,9 @@ def load_manifest_rows() -> list[dict]:
         return [json.loads(line) for line in manifest_file if line.strip()]
 
 
-def valid_real_fields(rows: list[dict]) -> list[tuple[str, str, dict]]:
+def valid_real_fields(
+    rows: list[dict], excluded_non_text_fields: int
+) -> tuple[list[tuple[str, str, dict]], int]:
     """Return every real annotation with a bbox and an explicit ground truth."""
     fields = []
     for row in rows:
@@ -82,6 +85,9 @@ def valid_real_fields(rows: list[dict]) -> list[tuple[str, str, dict]]:
             continue
 
         for field_name, annotation in annotations.items():
+            if field_name in NON_TEXT_FIELDS:
+                excluded_non_text_fields += 1
+                continue
             if not isinstance(annotation, dict):
                 continue
             if "value" not in annotation:
@@ -89,7 +95,7 @@ def valid_real_fields(rows: list[dict]) -> list[tuple[str, str, dict]]:
             if not REQUIRED_BBOX_KEYS.issubset(annotation):
                 continue
             fields.append((image_name, field_name, annotation))
-    return fields
+    return fields, excluded_non_text_fields
 
 
 def result_key(result: dict) -> tuple[str, str] | None:
@@ -186,7 +192,12 @@ def append_result(results_file, result: dict) -> None:
     results_file.flush()
 
 
-def summarize(results: list[dict], real_image_count: int, expected_fields: int) -> dict:
+def summarize(
+    results: list[dict],
+    real_image_count: int,
+    expected_fields: int,
+    excluded_non_text_fields: int,
+) -> dict:
     """Build overall and per-field metrics from all completed expected fields."""
     field_totals = defaultdict(
         lambda: {
@@ -249,6 +260,7 @@ def summarize(results: list[dict], real_image_count: int, expected_fields: int) 
             "valid_annotated_real_fields": expected_fields,
             "fields_processed": total_fields,
         },
+        "non_text_fields_excluded": excluded_non_text_fields,
         "overall_metrics": {
             "exact_matches": raw_exact_matches,
             "exact_match_accuracy": percent(raw_exact_matches, total_fields),
@@ -281,6 +293,7 @@ def print_summary_table(report: dict) -> None:
     overall = report["overall_metrics"]
     print("\nOverall")
     print(f"Fields processed: {report['dataset_totals']['fields_processed']}")
+    print(f"Non-text fields excluded: {report['non_text_fields_excluded']}")
     print(f"Raw exact-match accuracy: {overall['exact_match_accuracy']:.2f}%")
     print(f"Average character similarity: {overall['average_character_similarity']:.4f}")
     print(f"OCR failures: {report['ocr_failure_count']}")
@@ -289,7 +302,10 @@ def print_summary_table(report: dict) -> None:
 def main() -> None:
     rows = load_manifest_rows()
     real_rows = [row for row in rows if row.get("label") == "real"]
-    expected = valid_real_fields(real_rows)
+    excluded_non_text_fields = 0
+    expected, excluded_non_text_fields = valid_real_fields(
+        real_rows, excluded_non_text_fields
+    )
     expected_keys = {(image_name, field_name) for image_name, field_name, _ in expected}
 
     completed = load_completed_results()
@@ -331,7 +347,9 @@ def main() -> None:
     report_results = [
         completed[key] for key in expected_keys if key in completed
     ]
-    report = summarize(report_results, len(real_rows), total_fields)
+    report = summarize(
+        report_results, len(real_rows), total_fields, excluded_non_text_fields
+    )
     with REPORT_PATH.open("w", encoding="utf-8") as report_file:
         json.dump(report, report_file, ensure_ascii=False, indent=2)
         report_file.write("\n")
