@@ -6,11 +6,11 @@
   },
   "non_text_fields_excluded": 2800,
   "overall_metrics": {
-    "exact_matches": 6178,
-    "exact_match_accuracy": 46.128574628537294,
-    "average_character_similarity": 0.7750555534441562,
-    "normalized_exact_matches": 6475,
-    "normalized_exact_match_accuracy": 48.34615097438961
+    "exact_matches": 6242,
+    "exact_match_accuracy": 46.60643619801389,
+    "average_character_similarity": 0.7817080562215033,
+    "normalized_exact_matches": 6539,
+    "normalized_exact_match_accuracy": 48.824012543866196
   },
   "ocr_failure_count": 0,
   "per_field_metrics": {
@@ -18,7 +18,7 @@
       "samples": 400,
       "exact_matches": 100,
       "exact_match_percentage": 25.0,
-      "average_character_similarity": 0.6928599077578838,
+      "average_character_similarity": 0.6928599077578833,
       "normalized_exact_matches": 100,
       "normalized_exact_match_percentage": 25.0,
       "ocr_failures": 0
@@ -45,7 +45,7 @@
       "samples": 100,
       "exact_matches": 0,
       "exact_match_percentage": 0.0,
-      "average_character_similarity": 0.6315941558441561,
+      "average_character_similarity": 0.631594155844156,
       "normalized_exact_matches": 0,
       "normalized_exact_match_percentage": 0.0,
       "ocr_failures": 0
@@ -63,7 +63,7 @@
       "samples": 1000,
       "exact_matches": 536,
       "exact_match_percentage": 53.6,
-      "average_character_similarity": 0.9247405982905983,
+      "average_character_similarity": 0.9247405982905972,
       "normalized_exact_matches": 536,
       "normalized_exact_match_percentage": 53.6,
       "ocr_failures": 0
@@ -81,7 +81,7 @@
       "samples": 100,
       "exact_matches": 17,
       "exact_match_percentage": 17.0,
-      "average_character_similarity": 0.43785714285714294,
+      "average_character_similarity": 0.43785714285714283,
       "normalized_exact_matches": 17,
       "normalized_exact_match_percentage": 17.0,
       "ocr_failures": 0
@@ -90,7 +90,7 @@
       "samples": 500,
       "exact_matches": 23,
       "exact_match_percentage": 4.6,
-      "average_character_similarity": 0.6771993148611378,
+      "average_character_similarity": 0.6771993148611379,
       "normalized_exact_matches": 25,
       "normalized_exact_match_percentage": 5.0,
       "ocr_failures": 0
@@ -99,7 +99,7 @@
       "samples": 100,
       "exact_matches": 96,
       "exact_match_percentage": 96.0,
-      "average_character_similarity": 0.9855714285714285,
+      "average_character_similarity": 0.9855714285714287,
       "normalized_exact_matches": 97,
       "normalized_exact_match_percentage": 97.0,
       "ocr_failures": 0
@@ -108,7 +108,7 @@
       "samples": 100,
       "exact_matches": 0,
       "exact_match_percentage": 0.0,
-      "average_character_similarity": 0.065912322654263,
+      "average_character_similarity": 0.06591232265426299,
       "normalized_exact_matches": 0,
       "normalized_exact_match_percentage": 0.0,
       "ocr_failures": 0
@@ -117,7 +117,7 @@
       "samples": 67,
       "exact_matches": 0,
       "exact_match_percentage": 0.0,
-      "average_character_similarity": 0.07650726453693041,
+      "average_character_similarity": 0.0765072645369304,
       "normalized_exact_matches": 0,
       "normalized_exact_match_percentage": 0.0,
       "ocr_failures": 0
@@ -126,7 +126,7 @@
       "samples": 27,
       "exact_matches": 0,
       "exact_match_percentage": 0.0,
-      "average_character_similarity": 0.06343779397098971,
+      "average_character_similarity": 0.0634377939709897,
       "normalized_exact_matches": 0,
       "normalized_exact_match_percentage": 0.0,
       "ocr_failures": 0
@@ -135,7 +135,7 @@
       "samples": 500,
       "exact_matches": 368,
       "exact_match_percentage": 73.6,
-      "average_character_similarity": 0.8760190476190484,
+      "average_character_similarity": 0.8760190476190479,
       "normalized_exact_matches": 379,
       "normalized_exact_match_percentage": 75.8,
       "ocr_failures": 0
@@ -144,7 +144,7 @@
       "samples": 900,
       "exact_matches": 574,
       "exact_match_percentage": 63.77777777777778,
-      "average_character_similarity": 0.935984860818195,
+      "average_character_similarity": 0.9359848608181954,
       "normalized_exact_matches": 574,
       "normalized_exact_match_percentage": 63.77777777777778,
       "ocr_failures": 0
@@ -153,7 +153,7 @@
       "samples": 100,
       "exact_matches": 0,
       "exact_match_percentage": 0.0,
-      "average_character_similarity": 0.07209090909090908,
+      "average_character_similarity": 0.07209090909090907,
       "normalized_exact_matches": 0,
       "normalized_exact_match_percentage": 0.0,
       "ocr_failures": 0
@@ -162,7 +162,7 @@
       "samples": 100,
       "exact_matches": 22,
       "exact_match_percentage": 22.0,
-      "average_character_similarity": 0.7479090909090911,
+      "average_character_similarity": 0.7479090909090906,
       "normalized_exact_matches": 22,
       "normalized_exact_match_percentage": 22.0,
       "ocr_failures": 0
@@ -171,7 +171,7 @@
       "samples": 1000,
       "exact_matches": 248,
       "exact_match_percentage": 24.8,
-      "average_character_similarity": 0.448133333333335,
+      "average_character_similarity": 0.44813333333333494,
       "normalized_exact_matches": 248,
       "normalized_exact_match_percentage": 24.8,
       "ocr_failures": 0
@@ -189,7 +189,7 @@
       "samples": 700,
       "exact_matches": 486,
       "exact_match_percentage": 69.42857142857143,
-      "average_character_similarity": 0.9461313408813404,
+      "average_character_similarity": 0.9461313408813402,
       "normalized_exact_matches": 554,
       "normalized_exact_match_percentage": 79.14285714285714,
       "ocr_failures": 0
@@ -198,7 +198,7 @@
       "samples": 800,
       "exact_matches": 316,
       "exact_match_percentage": 39.5,
-      "average_character_similarity": 0.8944140061327565,
+      "average_character_similarity": 0.8944140061327566,
       "normalized_exact_matches": 316,
       "normalized_exact_match_percentage": 39.5,
       "ocr_failures": 0
@@ -207,7 +207,7 @@
       "samples": 100,
       "exact_matches": 37,
       "exact_match_percentage": 37.0,
-      "average_character_similarity": 0.8592813216195567,
+      "average_character_similarity": 0.8592813216195566,
       "normalized_exact_matches": 37,
       "normalized_exact_match_percentage": 37.0,
       "ocr_failures": 0
@@ -216,7 +216,7 @@
       "samples": 400,
       "exact_matches": 68,
       "exact_match_percentage": 17.0,
-      "average_character_similarity": 0.9259832168992839,
+      "average_character_similarity": 0.9259832168992834,
       "normalized_exact_matches": 76,
       "normalized_exact_match_percentage": 19.0,
       "ocr_failures": 0
@@ -225,7 +225,7 @@
       "samples": 400,
       "exact_matches": 16,
       "exact_match_percentage": 4.0,
-      "average_character_similarity": 0.9364646204506886,
+      "average_character_similarity": 0.936464620450689,
       "normalized_exact_matches": 72,
       "normalized_exact_match_percentage": 18.0,
       "ocr_failures": 0
@@ -261,7 +261,7 @@
       "samples": 800,
       "exact_matches": 499,
       "exact_match_percentage": 62.375,
-      "average_character_similarity": 0.801184210526317,
+      "average_character_similarity": 0.8011842105263173,
       "normalized_exact_matches": 499,
       "normalized_exact_match_percentage": 62.375,
       "ocr_failures": 0
@@ -279,7 +279,7 @@
       "samples": 999,
       "exact_matches": 737,
       "exact_match_percentage": 73.77377377377377,
-      "average_character_similarity": 0.8914914914914922,
+      "average_character_similarity": 0.8914914914914924,
       "normalized_exact_matches": 823,
       "normalized_exact_match_percentage": 82.38238238238239,
       "ocr_failures": 0
@@ -295,11 +295,11 @@
     },
     "number3": {
       "samples": 100,
-      "exact_matches": 0,
-      "exact_match_percentage": 0.0,
-      "average_character_similarity": 0.04222222222222223,
-      "normalized_exact_matches": 0,
-      "normalized_exact_match_percentage": 0.0,
+      "exact_matches": 64,
+      "exact_match_percentage": 64.0,
+      "average_character_similarity": 0.9331919191919187,
+      "normalized_exact_matches": 64,
+      "normalized_exact_match_percentage": 64.0,
       "ocr_failures": 0
     },
     "patronymic": {
@@ -315,7 +315,7 @@
       "samples": 100,
       "exact_matches": 0,
       "exact_match_percentage": 0.0,
-      "average_character_similarity": 0.8751928617957515,
+      "average_character_similarity": 0.8751928617957517,
       "normalized_exact_matches": 0,
       "normalized_exact_match_percentage": 0.0,
       "ocr_failures": 0
@@ -324,7 +324,7 @@
       "samples": 100,
       "exact_matches": 38,
       "exact_match_percentage": 38.0,
-      "average_character_similarity": 0.937922452713676,
+      "average_character_similarity": 0.9379224527136759,
       "normalized_exact_matches": 40,
       "normalized_exact_match_percentage": 40.0,
       "ocr_failures": 0
@@ -333,7 +333,7 @@
       "samples": 1000,
       "exact_matches": 373,
       "exact_match_percentage": 37.3,
-      "average_character_similarity": 0.6842004356754351,
+      "average_character_similarity": 0.6842004356754355,
       "normalized_exact_matches": 398,
       "normalized_exact_match_percentage": 39.8,
       "ocr_failures": 0
@@ -342,7 +342,7 @@
       "samples": 200,
       "exact_matches": 170,
       "exact_match_percentage": 85.0,
-      "average_character_similarity": 0.9742744200244201,
+      "average_character_similarity": 0.9742744200244202,
       "normalized_exact_matches": 174,
       "normalized_exact_match_percentage": 87.0,
       "ocr_failures": 0

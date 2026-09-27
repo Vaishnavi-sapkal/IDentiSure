@@ -141,14 +141,22 @@ def crop_field(image_path: Path, bbox: dict) -> Image.Image:
 
 def preprocess_field_crop(field_name: str, crop: Image.Image) -> Image.Image:
     """Apply only the field-specific transformations validated in experiments."""
-    # These two date layouts need targeted handling: ``birth_date_22`` is
-    # vertical, while ``birth_date_2`` is exceptionally small. All other
-    # fields retain the baseline crop without preprocessing.
+    # ``birth_date_22`` has vertically oriented text: clockwise 90 degrees,
+    # then 3x bicubic enlargement was validated in the targeted experiment.
     if field_name == "birth_date_22":
         crop = crop.transpose(Image.Transpose.ROTATE_270)
         return crop.resize(
             (crop.width * 3, crop.height * 3), Image.Resampling.BICUBIC
         )
+    # ``number3`` is also consistently vertically oriented and validated with
+    # the same clockwise 90-degree rotation and 3x bicubic enlargement.
+    if field_name == "number3":
+        crop = crop.transpose(Image.Transpose.ROTATE_270)
+        return crop.resize(
+            (crop.width * 3, crop.height * 3), Image.Resampling.BICUBIC
+        )
+    # ``birth_date_2`` is exceptionally small; 3x bilinear enlargement helps
+    # it without rotation. All remaining fields keep the baseline crop path.
     if field_name == "birth_date_2":
         return crop.resize(
             (crop.width * 3, crop.height * 3), Image.Resampling.BILINEAR
@@ -332,9 +340,11 @@ def main() -> None:
     expected_keys = {(image_name, field_name) for image_name, field_name, _ in expected}
 
     completed = load_completed_results()
-    # Re-run targeted fields so saved baseline results do not mask this test.
+    # Re-run only the validated targeted fields so saved baseline results do
+    # not mask the preprocessing experiment; all other cached results remain
+    # identical to their baseline evaluation.
     for image_name, field_name, _ in expected:
-        if field_name in {"birth_date_22", "birth_date_2"}:
+        if field_name in {"birth_date_22", "number3", "birth_date_2"}:
             completed.pop((image_name, field_name), None)
     pending = [
         field for field in expected if (field[0], field[1]) not in completed
