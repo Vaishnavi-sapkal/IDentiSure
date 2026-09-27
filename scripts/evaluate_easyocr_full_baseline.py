@@ -139,6 +139,23 @@ def crop_field(image_path: Path, bbox: dict) -> Image.Image:
         return crop.convert("RGB") if crop.mode != "RGB" else crop.copy()
 
 
+def preprocess_field_crop(field_name: str, crop: Image.Image) -> Image.Image:
+    """Apply only the field-specific transformations validated in experiments."""
+    # These two date layouts need targeted handling: ``birth_date_22`` is
+    # vertical, while ``birth_date_2`` is exceptionally small. All other
+    # fields retain the baseline crop without preprocessing.
+    if field_name == "birth_date_22":
+        crop = crop.transpose(Image.Transpose.ROTATE_270)
+        return crop.resize(
+            (crop.width * 3, crop.height * 3), Image.Resampling.BICUBIC
+        )
+    if field_name == "birth_date_2":
+        return crop.resize(
+            (crop.width * 3, crop.height * 3), Image.Resampling.BILINEAR
+        )
+    return crop
+
+
 def evaluate_field(
     reader: easyocr.Reader | None,
     reader_error: str | None,
@@ -166,6 +183,7 @@ def evaluate_field(
             raise RuntimeError("EasyOCR Reader was not initialized.")
 
         crop = crop_field(REAL_IMAGES_DIR / image_name, annotation)
+        crop = preprocess_field_crop(field_name, crop)
         # Preserve EasyOCR's returned list. Comparison follows the test script.
         raw_ocr = reader.readtext(np.array(crop), detail=0)
         prediction = " ".join(raw_ocr)
@@ -292,6 +310,11 @@ def print_summary_table(report: dict) -> None:
 
     overall = report["overall_metrics"]
     print("\nOverall")
+    print(f"Real images: {report['dataset_totals']['real_images_in_manifest']}")
+    print(
+        "Total annotated fields: "
+        f"{report['dataset_totals']['valid_annotated_real_fields'] + report['non_text_fields_excluded']}"
+    )
     print(f"Fields processed: {report['dataset_totals']['fields_processed']}")
     print(f"Non-text fields excluded: {report['non_text_fields_excluded']}")
     print(f"Raw exact-match accuracy: {overall['exact_match_accuracy']:.2f}%")
@@ -309,6 +332,10 @@ def main() -> None:
     expected_keys = {(image_name, field_name) for image_name, field_name, _ in expected}
 
     completed = load_completed_results()
+    # Re-run targeted fields so saved baseline results do not mask this test.
+    for image_name, field_name, _ in expected:
+        if field_name in {"birth_date_22", "birth_date_2"}:
+            completed.pop((image_name, field_name), None)
     pending = [
         field for field in expected if (field[0], field[1]) not in completed
     ]
