@@ -1,0 +1,303 @@
+field_name,image,bbox_x,bbox_y,bbox_width,bbox_height,aspect_ratio,ground_truth,text_length
+birth_date_22,fin_id_00.jpg,657,516,8,31,3.875000,010481,6
+birth_date_22,fin_id_01.jpg,657,513,8,35,4.375000,031075,6
+birth_date_22,fin_id_02.jpg,657,515,8,32,4.000000,071081,6
+birth_date_22,fin_id_03.jpg,657,516,8,31,3.875000,211079,6
+birth_date_22,fin_id_04.jpg,657,514,8,33,4.125000,160590,6
+birth_date_22,fin_id_05.jpg,657,513,8,34,4.250000,230975,6
+birth_date_22,fin_id_06.jpg,656,514,10,33,3.300000,100789,6
+birth_date_22,fin_id_07.jpg,657,514,8,33,4.125000,210286,6
+birth_date_22,fin_id_08.jpg,656,514,9,33,3.666667,080273,6
+birth_date_22,fin_id_09.jpg,657,516,8,31,3.875000,040489,6
+birth_date_22,fin_id_10.jpg,657,516,8,31,3.875000,150483,6
+birth_date_22,fin_id_11.jpg,656,514,9,34,3.777778,030185,6
+birth_date_22,fin_id_12.jpg,657,516,8,31,3.875000,010898,6
+birth_date_22,fin_id_13.jpg,656,514,9,33,3.666667,220799,6
+birth_date_22,fin_id_14.jpg,657,514,8,33,4.125000,190497,6
+birth_date_22,fin_id_15.jpg,657,514,8,33,4.125000,250192,6
+birth_date_22,fin_id_16.jpg,656,514,9,33,3.666667,031178,6
+birth_date_22,fin_id_17.jpg,657,514,8,33,4.125000,100773,6
+birth_date_22,fin_id_18.jpg,657,514,8,33,4.125000,190880,6
+birth_date_22,fin_id_19.jpg,656,513,9,36,4.000000,210400,6
+birth_date_22,fin_id_20.jpg,657,513,8,34,4.250000,270801,6
+birth_date_22,fin_id_21.jpg,656,513,9,34,3.777778,070295,6
+birth_date_22,fin_id_22.jpg,657,514,8,33,4.125000,170395,6
+birth_date_22,fin_id_23.jpg,655,514,11,34,3.090909,270971,6
+birth_date_22,fin_id_24.jpg,657,516,8,31,3.875000,130789,6
+birth_date_22,fin_id_25.jpg,657,516,8,31,3.875000,030771,6
+birth_date_22,fin_id_26.jpg,656,515,9,32,3.555556,300374,6
+birth_date_22,fin_id_27.jpg,657,514,8,33,4.125000,300372,6
+birth_date_22,fin_id_28.jpg,656,514,9,33,3.666667,041189,6
+birth_date_22,fin_id_29.jpg,657,515,8,32,4.000000,170881,6
+birth_date_22,fin_id_30.jpg,657,514,8,33,4.125000,180682,6
+birth_date_22,fin_id_31.jpg,657,514,9,33,3.666667,290380,6
+birth_date_22,fin_id_32.jpg,657,513,8,34,4.250000,300485,6
+birth_date_22,fin_id_33.jpg,657,514,8,33,4.125000,161000,6
+birth_date_22,fin_id_34.jpg,657,514,8,33,4.125000,290672,6
+birth_date_22,fin_id_35.jpg,657,514,8,33,4.125000,270872,6
+birth_date_22,fin_id_36.jpg,657,514,8,34,4.250000,061288,6
+birth_date_22,fin_id_37.jpg,657,514,8,33,4.125000,240470,6
+birth_date_22,fin_id_38.jpg,657,514,8,33,4.125000,170296,6
+birth_date_22,fin_id_39.jpg,657,514,8,33,4.125000,080392,6
+birth_date_22,fin_id_40.jpg,657,514,8,34,4.250000,100791,6
+birth_date_22,fin_id_41.jpg,656,514,9,33,3.666667,211079,6
+birth_date_22,fin_id_42.jpg,657,514,8,33,4.125000,190372,6
+birth_date_22,fin_id_43.jpg,657,514,8,33,4.125000,260579,6
+birth_date_22,fin_id_44.jpg,657,514,8,33,4.125000,190673,6
+birth_date_22,fin_id_45.jpg,657,515,8,32,4.000000,170481,6
+birth_date_22,fin_id_46.jpg,657,513,8,35,4.375000,280886,6
+birth_date_22,fin_id_47.jpg,657,514,8,34,4.250000,110575,6
+birth_date_22,fin_id_48.jpg,657,514,8,33,4.125000,200590,6
+birth_date_22,fin_id_49.jpg,657,514,8,33,4.125000,271286,6
+birth_date_22,fin_id_50.jpg,657,514,8,33,4.125000,251070,6
+birth_date_22,fin_id_51.jpg,655,515,10,32,3.200000,090689,6
+birth_date_22,fin_id_52.jpg,657,514,8,33,4.125000,021199,6
+birth_date_22,fin_id_53.jpg,657,514,8,34,4.250000,040777,6
+birth_date_22,fin_id_54.jpg,657,514,8,33,4.125000,010974,6
+birth_date_22,fin_id_55.jpg,657,513,8,34,4.250000,100174,6
+birth_date_22,fin_id_56.jpg,657,513,8,34,4.250000,120193,6
+birth_date_22,fin_id_57.jpg,657,514,8,34,4.250000,180200,6
+birth_date_22,fin_id_58.jpg,657,514,8,33,4.125000,260986,6
+birth_date_22,fin_id_59.jpg,657,513,8,35,4.375000,100794,6
+birth_date_22,fin_id_60.jpg,657,514,8,34,4.250000,200781,6
+birth_date_22,fin_id_61.jpg,657,514,8,33,4.125000,060499,6
+birth_date_22,fin_id_62.jpg,657,513,8,35,4.375000,220974,6
+birth_date_22,fin_id_63.jpg,657,513,8,34,4.250000,150384,6
+birth_date_22,fin_id_64.jpg,657,514,8,34,4.250000,230881,6
+birth_date_22,fin_id_65.jpg,657,514,8,33,4.125000,090784,6
+birth_date_22,fin_id_66.jpg,657,514,8,34,4.250000,190798,6
+birth_date_22,fin_id_67.jpg,657,513,8,34,4.250000,201182,6
+birth_date_22,fin_id_68.jpg,657,514,8,35,4.375000,200595,6
+birth_date_22,fin_id_69.jpg,657,514,8,34,4.250000,081189,6
+birth_date_22,fin_id_70.jpg,657,514,8,34,4.250000,181201,6
+birth_date_22,fin_id_71.jpg,657,514,8,34,4.250000,190574,6
+birth_date_22,fin_id_72.jpg,657,513,8,34,4.250000,010182,6
+birth_date_22,fin_id_73.jpg,657,513,8,35,4.375000,300676,6
+birth_date_22,fin_id_74.jpg,657,513,8,34,4.250000,180302,6
+birth_date_22,fin_id_75.jpg,657,514,8,34,4.250000,310172,6
+birth_date_22,fin_id_76.jpg,657,513,8,34,4.250000,280696,6
+birth_date_22,fin_id_77.jpg,657,514,8,33,4.125000,270694,6
+birth_date_22,fin_id_78.jpg,657,513,8,34,4.250000,041096,6
+birth_date_22,fin_id_79.jpg,657,514,8,33,4.125000,171191,6
+birth_date_22,fin_id_80.jpg,657,514,8,34,4.250000,100253,6
+birth_date_22,fin_id_81.jpg,657,514,8,33,4.125000,060269,6
+birth_date_22,fin_id_82.jpg,657,514,8,34,4.250000,070668,6
+birth_date_22,fin_id_83.jpg,657,514,8,33,4.125000,140557,6
+birth_date_22,fin_id_84.jpg,657,513,8,34,4.250000,100354,6
+birth_date_22,fin_id_85.jpg,657,514,8,33,4.125000,020267,6
+birth_date_22,fin_id_86.jpg,657,513,8,34,4.250000,140960,6
+birth_date_22,fin_id_87.jpg,657,515,8,32,4.000000,280863,6
+birth_date_22,fin_id_88.jpg,657,514,8,33,4.125000,140155,6
+birth_date_22,fin_id_89.jpg,657,514,8,33,4.125000,271053,6
+birth_date_22,fin_id_90.jpg,657,514,8,33,4.125000,301064,6
+birth_date_22,fin_id_91.jpg,657,514,8,33,4.125000,061150,6
+birth_date_22,fin_id_92.jpg,657,513,8,34,4.250000,111164,6
+birth_date_22,fin_id_93.jpg,657,514,8,33,4.125000,161165,6
+birth_date_22,fin_id_94.jpg,657,514,8,33,4.125000,260158,6
+birth_date_22,fin_id_95.jpg,657,514,8,33,4.125000,090769,6
+birth_date_22,fin_id_96.jpg,657,514,8,33,4.125000,260464,6
+birth_date_22,fin_id_97.jpg,657,514,8,33,4.125000,030359,6
+birth_date_22,fin_id_98.jpg,657,513,8,34,4.250000,140268,6
+birth_date_22,fin_id_99.jpg,657,514,8,34,4.250000,080363,6
+gender,alb_id_36.jpg,1454,731,25,50,2.000000,F,1
+gender,alb_id_66.jpg,1455,730,24,49,2.041667,F,1
+number,rus_internalpassport_00.jpg,1436,297,37,448,12.108108,45    98    647461,18
+number,rus_internalpassport_01.jpg,1436,297,37,448,12.108108,46    17    599405,18
+number,rus_internalpassport_02.jpg,1436,297,37,448,12.108108,45    99    077821,18
+number,rus_internalpassport_03.jpg,1436,297,37,448,12.108108,45    18    809064,18
+number,rus_internalpassport_04.jpg,1436,297,37,448,12.108108,45    17    720319,18
+number,rus_internalpassport_05.jpg,1435,297,37,448,12.108108,46    17    953745,18
+number,rus_internalpassport_06.jpg,1436,297,37,448,12.108108,38    13    954448,18
+number,rus_internalpassport_07.jpg,1436,297,37,448,12.108108,42    16    302815,18
+number,rus_internalpassport_08.jpg,1436,297,37,448,12.108108,73    06    620940,18
+number,rus_internalpassport_09.jpg,1436,297,37,448,12.108108,46    04    089403,18
+number,rus_internalpassport_10.jpg,1436,297,37,448,12.108108,03    15    810755,18
+number,rus_internalpassport_11.jpg,1436,297,37,448,12.108108,45    11    602911,18
+number,rus_internalpassport_12.jpg,1436,297,37,448,12.108108,56    13    100553,18
+number,rus_internalpassport_13.jpg,1436,297,37,448,12.108108,56    06    842352,18
+number,rus_internalpassport_14.jpg,1436,297,37,448,12.108108,45    03    566835,18
+number,rus_internalpassport_15.jpg,1436,297,37,448,12.108108,15    16    911642,18
+number,rus_internalpassport_16.jpg,1436,297,37,448,12.108108,45    00    584315,18
+number,rus_internalpassport_17.jpg,1436,297,37,448,12.108108,46    11    546175,18
+number,rus_internalpassport_18.jpg,1436,297,37,448,12.108108,70    13    468740,18
+number,rus_internalpassport_19.jpg,1436,297,37,448,12.108108,34    95    141681,18
+number,rus_internalpassport_20.jpg,1436,297,37,448,12.108108,15    18    695558,18
+number,rus_internalpassport_21.jpg,1436,297,37,448,12.108108,08    97    620204,18
+number,rus_internalpassport_22.jpg,1436,297,37,448,12.108108,46    01    795435,18
+number,rus_internalpassport_23.jpg,1436,297,37,448,12.108108,70    01    874781,18
+number,rus_internalpassport_24.jpg,1436,297,37,448,12.108108,28    17    340861,18
+number,rus_internalpassport_25.jpg,1436,297,37,448,12.108108,46    97    445141,18
+number,rus_internalpassport_26.jpg,1436,297,37,448,12.108108,03    11    577847,18
+number,rus_internalpassport_27.jpg,1436,297,37,448,12.108108,50    15    027973,18
+number,rus_internalpassport_28.jpg,1436,297,37,448,12.108108,45    01    044224,18
+number,rus_internalpassport_29.jpg,1436,297,37,448,12.108108,61    96    258683,18
+number,rus_internalpassport_30.jpg,1436,297,37,448,12.108108,45    14    806436,18
+number,rus_internalpassport_31.jpg,1436,297,37,448,12.108108,45    02    010052,18
+number,rus_internalpassport_32.jpg,1436,297,37,448,12.108108,61    96    822479,18
+number,rus_internalpassport_33.jpg,1436,297,37,448,12.108108,05    99    176362,18
+number,rus_internalpassport_34.jpg,1436,297,37,448,12.108108,45    11    037608,18
+number,rus_internalpassport_35.jpg,1436,297,37,448,12.108108,46    15    374912,18
+number,rus_internalpassport_36.jpg,1436,297,37,448,12.108108,45    17    602570,18
+number,rus_internalpassport_37.jpg,1436,297,37,448,12.108108,96    16    816583,18
+number,rus_internalpassport_38.jpg,1436,297,37,448,12.108108,07    06    471899,18
+number,rus_internalpassport_39.jpg,1436,297,37,448,12.108108,46    15    249041,18
+number,rus_internalpassport_40.jpg,1436,297,37,448,12.108108,18    15    092913,18
+number,rus_internalpassport_41.jpg,1436,297,37,448,12.108108,46    98    202696,18
+number,rus_internalpassport_42.jpg,1436,297,37,448,12.108108,78    96    457250,18
+number,rus_internalpassport_43.jpg,1436,297,37,448,12.108108,45    03    594757,18
+number,rus_internalpassport_44.jpg,1436,297,37,448,12.108108,97    04    855326,18
+number,rus_internalpassport_45.jpg,1436,297,37,448,12.108108,45    17    367065,18
+number,rus_internalpassport_46.jpg,1436,297,37,448,12.108108,14    00    282874,18
+number,rus_internalpassport_47.jpg,1436,297,37,448,12.108108,46    10    278726,18
+number,rus_internalpassport_48.jpg,1436,297,37,448,12.108108,46    15    893186,18
+number,rus_internalpassport_49.jpg,1436,297,37,448,12.108108,45    17    829459,18
+number,rus_internalpassport_50.jpg,1436,297,37,448,12.108108,68    12    353092,18
+number,rus_internalpassport_51.jpg,1436,297,37,448,12.108108,45    09    138583,18
+number,rus_internalpassport_52.jpg,1436,297,37,448,12.108108,45    05    679944,18
+number,rus_internalpassport_53.jpg,1436,297,37,448,12.108108,45    18    609172,18
+number,rus_internalpassport_54.jpg,1436,297,37,448,12.108108,45    18    438004,18
+number,rus_internalpassport_55.jpg,1436,297,37,448,12.108108,34    04    054531,18
+number,rus_internalpassport_56.jpg,1436,297,37,448,12.108108,70    95    167471,18
+number,rus_internalpassport_57.jpg,1436,297,37,448,12.108108,17    98    021591,18
+number,rus_internalpassport_58.jpg,1436,297,37,448,12.108108,63    13    024648,18
+number,rus_internalpassport_59.jpg,1436,297,37,448,12.108108,46    16    317563,18
+number,rus_internalpassport_60.jpg,1436,297,37,448,12.108108,67    15    573009,18
+number,rus_internalpassport_61.jpg,1436,297,37,448,12.108108,47    03    083034,18
+number,rus_internalpassport_62.jpg,1436,297,37,448,12.108108,20    02    881577,18
+number,rus_internalpassport_63.jpg,1436,297,37,448,12.108108,46    06    320741,18
+number,rus_internalpassport_64.jpg,1436,297,37,448,12.108108,07    11    731959,18
+number,rus_internalpassport_65.jpg,1436,297,37,448,12.108108,45    16    369981,18
+number,rus_internalpassport_66.jpg,1436,297,37,448,12.108108,33    01    623792,18
+number,rus_internalpassport_67.jpg,1436,297,37,448,12.108108,15    18    755147,18
+number,rus_internalpassport_68.jpg,1436,297,37,448,12.108108,56    16    790454,18
+number,rus_internalpassport_69.jpg,1436,297,37,448,12.108108,46    18    296473,18
+number,rus_internalpassport_70.jpg,1436,297,37,448,12.108108,71    04    972066,18
+number,rus_internalpassport_71.jpg,1436,297,37,448,12.108108,04    16    785353,18
+number,rus_internalpassport_72.jpg,1436,297,37,448,12.108108,46    01    779479,18
+number,rus_internalpassport_73.jpg,1436,297,37,448,12.108108,45    15    565088,18
+number,rus_internalpassport_74.jpg,1436,297,37,448,12.108108,45    96    303754,18
+number,rus_internalpassport_75.jpg,1436,297,37,448,12.108108,29    08    976060,18
+number,rus_internalpassport_76.jpg,1436,297,37,448,12.108108,82    97    964921,18
+number,rus_internalpassport_77.jpg,1436,297,37,448,12.108108,45    16    414418,18
+number,rus_internalpassport_78.jpg,1436,297,37,448,12.108108,46    01    949880,18
+number,rus_internalpassport_79.jpg,1436,297,37,448,12.108108,45    06    465847,18
+number,rus_internalpassport_80.jpg,1436,297,37,448,12.108108,44    97    839505,18
+number,rus_internalpassport_81.jpg,1436,297,37,448,12.108108,17    05    777814,18
+number,rus_internalpassport_82.jpg,1436,297,37,448,12.108108,03    07    622578,18
+number,rus_internalpassport_83.jpg,1436,297,37,448,12.108108,20    08    777766,18
+number,rus_internalpassport_84.jpg,1436,297,37,448,12.108108,97    11    200254,18
+number,rus_internalpassport_85.jpg,1436,297,37,448,12.108108,68    15    773639,18
+number,rus_internalpassport_86.jpg,1436,297,37,448,12.108108,46    95    225115,18
+number,rus_internalpassport_87.jpg,1436,297,37,448,12.108108,46    11    126957,18
+number,rus_internalpassport_88.jpg,1436,297,37,448,12.108108,15    03    326542,18
+number,rus_internalpassport_89.jpg,1436,297,37,448,12.108108,45    08    229604,18
+number,rus_internalpassport_90.jpg,1436,297,37,448,12.108108,46    18    801409,18
+number,rus_internalpassport_91.jpg,1436,297,37,448,12.108108,07    18    116572,18
+number,rus_internalpassport_92.jpg,1436,297,37,448,12.108108,45    19    649878,18
+number,rus_internalpassport_93.jpg,1436,297,37,448,12.108108,46    19    346860,18
+number,rus_internalpassport_94.jpg,1436,297,37,448,12.108108,46    17    554777,18
+number,rus_internalpassport_95.jpg,1436,297,37,448,12.108108,67    18    003489,18
+number,rus_internalpassport_96.jpg,1436,297,37,448,12.108108,45    16    966256,18
+number,rus_internalpassport_97.jpg,1436,297,37,448,12.108108,46    19    996705,18
+number,rus_internalpassport_98.jpg,1436,297,37,448,12.108108,45    18    865185,18
+number,rus_internalpassport_99.jpg,1436,297,37,448,12.108108,60    19    193554,18
+number3,est_id_00.jpg,845,217,16,113,7.062500,AA6557729,9
+number3,est_id_01.jpg,845,217,16,114,7.125000,AA5413690,9
+number3,est_id_02.jpg,845,217,16,113,7.062500,AA6553224,9
+number3,est_id_03.jpg,845,217,16,113,7.062500,AA6531087,9
+number3,est_id_04.jpg,845,217,16,113,7.062500,AA9981569,9
+number3,est_id_05.jpg,845,217,16,113,7.062500,AA6133126,9
+number3,est_id_06.jpg,845,217,16,113,7.062500,AA0284069,9
+number3,est_id_07.jpg,845,217,16,113,7.062500,AA8485417,9
+number3,est_id_08.jpg,845,217,16,113,7.062500,AA4489573,9
+number3,est_id_09.jpg,845,217,16,113,7.062500,AA7536777,9
+number3,est_id_10.jpg,845,217,16,113,7.062500,AA9029788,9
+number3,est_id_11.jpg,845,218,16,113,7.062500,AA3208091,9
+number3,est_id_12.jpg,845,217,16,113,7.062500,EA8981011,9
+number3,est_id_13.jpg,845,217,16,113,7.062500,AA9943505,9
+number3,est_id_14.jpg,845,217,16,113,7.062500,AA5239446,9
+number3,est_id_15.jpg,845,217,16,113,7.062500,AA4026755,9
+number3,est_id_16.jpg,845,217,16,113,7.062500,EA9573084,9
+number3,est_id_17.jpg,845,218,16,113,7.062500,AA2319131,9
+number3,est_id_18.jpg,845,217,16,113,7.062500,AA0337821,9
+number3,est_id_19.jpg,845,217,16,113,7.062500,AA1821187,9
+number3,est_id_20.jpg,845,217,16,113,7.062500,AA6932585,9
+number3,est_id_21.jpg,845,217,16,113,7.062500,AA4322255,9
+number3,est_id_22.jpg,845,217,16,113,7.062500,AA9181946,9
+number3,est_id_23.jpg,845,217,16,113,7.062500,EA7173938,9
+number3,est_id_24.jpg,845,217,16,113,7.062500,AA3857868,9
+number3,est_id_25.jpg,845,217,16,113,7.062500,AA1666707,9
+number3,est_id_26.jpg,845,217,16,113,7.062500,AA8328900,9
+number3,est_id_27.jpg,845,217,16,113,7.062500,AA3189332,9
+number3,est_id_28.jpg,845,217,16,113,7.062500,AA7405645,9
+number3,est_id_29.jpg,845,217,16,113,7.062500,AA7755714,9
+number3,est_id_30.jpg,845,217,16,113,7.062500,AA2945468,9
+number3,est_id_31.jpg,845,217,16,113,7.062500,AA9677281,9
+number3,est_id_32.jpg,845,217,16,113,7.062500,AA8659479,9
+number3,est_id_33.jpg,845,218,16,113,7.062500,AA9911341,9
+number3,est_id_34.jpg,845,216,16,115,7.187500,AA0371564,9
+number3,est_id_35.jpg,845,217,16,113,7.062500,AA8709726,9
+number3,est_id_36.jpg,845,217,16,113,7.062500,AA9374352,9
+number3,est_id_37.jpg,845,217,16,113,7.062500,AA6594150,9
+number3,est_id_38.jpg,845,216,16,115,7.187500,AA8788598,9
+number3,est_id_39.jpg,845,217,16,113,7.062500,AA7485713,9
+number3,est_id_40.jpg,845,216,16,115,7.187500,AA9217510,9
+number3,est_id_41.jpg,845,217,16,113,7.062500,EA6235938,9
+number3,est_id_42.jpg,845,217,16,113,7.062500,AA0765082,9
+number3,est_id_43.jpg,845,217,16,113,7.062500,AA3821628,9
+number3,est_id_44.jpg,845,217,16,113,7.062500,AA2577602,9
+number3,est_id_45.jpg,845,215,16,115,7.187500,AA3221710,9
+number3,est_id_46.jpg,845,217,16,113,7.062500,AA9687313,9
+number3,est_id_47.jpg,845,216,16,115,7.187500,AA7063230,9
+number3,est_id_48.jpg,845,216,16,115,7.187500,AA7675488,9
+number3,est_id_49.jpg,845,217,16,113,7.062500,EA1297796,9
+number3,est_id_50.jpg,845,217,16,113,7.062500,AA2952875,9
+number3,est_id_51.jpg,845,217,16,113,7.062500,AA1175023,9
+number3,est_id_52.jpg,845,217,16,113,7.062500,AA6150062,9
+number3,est_id_53.jpg,845,218,16,113,7.062500,AA4254531,9
+number3,est_id_54.jpg,845,217,16,113,7.062500,AA1039308,9
+number3,est_id_55.jpg,845,217,16,113,7.062500,AA8723849,9
+number3,est_id_56.jpg,845,217,16,113,7.062500,EA7041825,9
+number3,est_id_57.jpg,845,216,16,115,7.187500,AA8034388,9
+number3,est_id_58.jpg,845,217,16,113,7.062500,AA1313753,9
+number3,est_id_59.jpg,845,217,16,113,7.062500,AA9942714,9
+number3,est_id_60.jpg,845,216,16,115,7.187500,AA0481238,9
+number3,est_id_61.jpg,845,215,16,115,7.187500,AA5752760,9
+number3,est_id_62.jpg,845,217,16,113,7.062500,AA0572682,9
+number3,est_id_63.jpg,845,215,16,115,7.187500,AA4506600,9
+number3,est_id_64.jpg,845,217,16,113,7.062500,AA9534165,9
+number3,est_id_65.jpg,845,215,16,116,7.250000,AA6055514,9
+number3,est_id_66.jpg,845,216,16,115,7.187500,AA6719478,9
+number3,est_id_67.jpg,845,217,16,113,7.062500,EA0120047,9
+number3,est_id_68.jpg,845,216,16,115,7.187500,AA8923070,9
+number3,est_id_69.jpg,845,217,16,113,7.062500,AA5167568,9
+number3,est_id_70.jpg,845,217,16,113,7.062500,AA1798425,9
+number3,est_id_71.jpg,845,216,16,115,7.187500,AA0078640,9
+number3,est_id_72.jpg,845,217,16,113,7.062500,EA3452745,9
+number3,est_id_73.jpg,845,217,16,113,7.062500,AA5795862,9
+number3,est_id_74.jpg,845,217,16,113,7.062500,AA2511727,9
+number3,est_id_75.jpg,845,217,16,113,7.062500,AA2851288,9
+number3,est_id_76.jpg,845,217,16,113,7.062500,AA9062225,9
+number3,est_id_77.jpg,845,217,16,113,7.062500,AA2911352,9
+number3,est_id_78.jpg,845,217,16,113,7.062500,EA1079432,9
+number3,est_id_79.jpg,845,216,16,115,7.187500,AA1708600,9
+number3,est_id_80.jpg,845,215,16,115,7.187500,AA5772708,9
+number3,est_id_81.jpg,845,217,16,113,7.062500,AA9760597,9
+number3,est_id_82.jpg,845,217,16,113,7.062500,AA6715323,9
+number3,est_id_83.jpg,845,217,16,113,7.062500,AA5117853,9
+number3,est_id_84.jpg,845,217,16,113,7.062500,EA0371856,9
+number3,est_id_85.jpg,845,217,16,113,7.062500,AA3700036,9
+number3,est_id_86.jpg,845,217,16,113,7.062500,AA2219046,9
+number3,est_id_87.jpg,845,217,16,113,7.062500,AA6185852,9
+number3,est_id_88.jpg,845,218,16,113,7.062500,AA6120971,9
+number3,est_id_89.jpg,845,217,16,113,7.062500,AA3054413,9
+number3,est_id_90.jpg,845,217,16,113,7.062500,AA1113666,9
+number3,est_id_91.jpg,845,217,16,113,7.062500,AA0843995,9
+number3,est_id_92.jpg,845,217,16,113,7.062500,AA3653735,9
+number3,est_id_93.jpg,845,218,16,113,7.062500,AA2214921,9
+number3,est_id_94.jpg,845,217,16,113,7.062500,AA9868224,9
+number3,est_id_95.jpg,845,217,16,113,7.062500,AA9531416,9
+number3,est_id_96.jpg,845,217,16,113,7.062500,AA4645747,9
+number3,est_id_97.jpg,845,217,16,113,7.062500,AA4154805,9
+number3,est_id_98.jpg,845,217,16,113,7.062500,AA8857232,9
+number3,est_id_99.jpg,845,217,16,113,7.062500,AA8878019,9
