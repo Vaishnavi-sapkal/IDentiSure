@@ -1,0 +1,43 @@
+{
+  "manifest": "docs\\manifest.jsonl",
+  "seed": 20260929,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "grouping": "connected components over inferred fake primary source and donor_image secondary source",
+  "verification": {
+    "passed": true,
+    "real_image_and_all_derived_fakes_co_located": true
+  },
+  "summary": {
+    "train": {
+      "groups": 654,
+      "rows": 1512,
+      "real_images": 702,
+      "fakes": 810,
+      "inpaint_and_rewrite": 714,
+      "crop_and_replace": 96,
+      "crop_and_replace_percentage_of_fakes": 11.851851851851851
+    },
+    "val": {
+      "groups": 137,
+      "rows": 355,
+      "real_images": 149,
+      "fakes": 206,
+      "inpaint_and_rewrite": 182,
+      "crop_and_replace": 24,
+      "crop_and_replace_percentage_of_fakes": 11.650485436893204
+    },
+    "test": {
+      "groups": 136,
+      "rows": 355,
+      "real_images": 149,
+      "fakes": 206,
+      "inpaint_and_rewrite": 181,
+      "crop_and_replace": 25,
+      "crop_and_replace_percentage_of_fakes": 12.135922330097088
+    }
+  }
+}
