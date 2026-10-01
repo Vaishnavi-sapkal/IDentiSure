@@ -2,5 +2,9 @@ datasets/sidtd/
 backend/venv/
 __pycache__/
 *.pyc
+.torch_cache/
 docs/crops/
 docs/easyocr_full_results.jsonl
+docs/checkpoints/
+*.pth
+*.pt
